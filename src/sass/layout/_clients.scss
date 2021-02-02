@@ -125,11 +125,9 @@
     display: flex;
   }
   .clients__top {
+    position: relative;
     display: flex;
     align-items: center;
-    // height: 313px;
-    // margin-left: 27px;
-    // margin-right: 27px;
   }
   .clients__icon {
     margin-top: 20px;
@@ -172,11 +170,11 @@
   }
   .clients__icon-other-left-line {
     position: absolute;
-    left: 40px;
+    left: -15px;
   }
   .clients__icon-other-right-line {
     position: absolute;
-    right: 40px;
+    right: -15px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -234,5 +232,14 @@
   }
   .clients__bottom-part {
     margin-top: 40px;
+  }
+
+  .clients__icon-other-left-line {
+    position: absolute;
+    left: 30px;
+  }
+  .clients__icon-other-right-line {
+    position: absolute;
+    right: 30px;
   }
 }
