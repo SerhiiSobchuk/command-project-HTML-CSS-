@@ -23,7 +23,7 @@
         margin-top: 10px;
         flex-basis: 100%;
         & > h3 {
-          @include font(bold, 14px, 17.07/14, left, 0.06em);
+          @include font(bold, 14px, 1.7, left, 0.06em);
           color: $orange;
         }
         & > p {
@@ -67,7 +67,7 @@
           flex-basis: calc(100% / #{$columns} - #{$item-gap-horizontal});
 
           & > h3 {
-            @include font(bold, 20px, 1.2, left, 0.08em);
+            @include font(bold, 14px, 1.2, left, 0.08em);
           }
           & > p {
             @include font(bold, 14px, 1.714, left, 0.08em);
