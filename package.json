@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://Bohdan-Skyba.github.io/zero-team",
+  "homepage": "https://github.com/SerhiiSobchuk/command-project-HTML-CSS-.git",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html",
